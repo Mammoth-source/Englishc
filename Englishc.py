@@ -15,6 +15,7 @@ while True:
         else:
             print("Errno1: Bad request", web)
         def Update_Toolchain():
+            requests.get("https://cdn.jsdelivr.net/gh/Mammoth-source/Englishc@main/Englishc.py")
                
     code = input("Englishc@windows:~$")
     if code == "About":
